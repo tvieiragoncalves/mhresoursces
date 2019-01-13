@@ -34,6 +34,5 @@ jekyll-archives:
   enabled: all
   layout: archive
 plugins:
-- jekyll-menus
 - jekyll-feed
 - jekyll-archives
