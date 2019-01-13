@@ -1,0 +1,14 @@
+---
+menus:
+  footer:
+    identifier: _about
+    weight: 2
+  navigation:
+    identifier: _about
+    weight: 2
+menus:
+  navigation:
+    identifier: _contact
+    weight: 5
+    title: Contacte-nos
+---
