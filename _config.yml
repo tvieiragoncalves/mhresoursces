@@ -1,0 +1,39 @@
+---
+title: MH Resources
+timezone: GMT
+collections:
+  people:
+    title: People
+    output: true
+    permalink: "/about/:path/"
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/projects/:path/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+short_title: MH Resources
+description: Consultoria em Saúde Mental
+baseurl:
+permalink: "/:path/"
+jekyll-archives:
+  enabled: all
+  layout: archive
+plugins:
+- jekyll-menus
+- jekyll-feed
+- jekyll-archives
